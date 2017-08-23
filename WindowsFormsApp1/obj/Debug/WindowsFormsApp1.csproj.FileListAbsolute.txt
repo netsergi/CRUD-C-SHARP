@@ -1,0 +1,41 @@
+c:\users\sergi navarro\documents\visual studio 2017\Montajes Gas\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+c:\users\sergi navarro\documents\visual studio 2017\Montajes Gas\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+c:\users\sergi navarro\documents\visual studio 2017\Montajes Gas\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+c:\users\sergi navarro\documents\visual studio 2017\Montajes Gas\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+c:\users\sergi navarro\documents\visual studio 2017\Montajes Gas\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+c:\users\sergi navarro\documents\visual studio 2017\Montajes Gas\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+c:\users\sergi navarro\documents\visual studio 2017\Montajes Gas\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+c:\users\sergi navarro\documents\visual studio 2017\Montajes Gas\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Sergi Navarro\documents\visual studio 2017\Montajes Gas\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmdatos.resources
+C:\Users\Sergi Navarro\Dropbox\Programación\VC#\proyectos\Montajes Gas\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Sergi Navarro\Dropbox\Programación\VC#\proyectos\Montajes Gas\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Sergi Navarro\Dropbox\Programación\VC#\proyectos\Montajes Gas\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Sergi Navarro\Dropbox\Programación\VC#\proyectos\Montajes Gas\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+C:\Users\Sergi Navarro\Dropbox\Programación\VC#\proyectos\Montajes Gas\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmdatos.resources
+C:\Users\Sergi Navarro\Dropbox\Programación\VC#\proyectos\Montajes Gas\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Sergi Navarro\Dropbox\Programación\VC#\proyectos\Montajes Gas\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+C:\Users\Sergi Navarro\Dropbox\Programación\VC#\proyectos\Montajes Gas\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Sergi Navarro\Dropbox\Programación\VC#\proyectos\Montajes Gas\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Sergi Navarro\Dropbox\Programación\VC#\proyectos\Montajes Gas\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.insertar.resources
+C:\Users\abcxemeneies\Dropbox\Programación\VC#\proyectos\Montajes Gas\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\abcxemeneies\Dropbox\Programación\VC#\proyectos\Montajes Gas\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\abcxemeneies\Dropbox\Programación\VC#\proyectos\Montajes Gas\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\abcxemeneies\Dropbox\Programación\VC#\proyectos\Montajes Gas\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+C:\Users\abcxemeneies\Dropbox\Programación\VC#\proyectos\Montajes Gas\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmdatos.resources
+C:\Users\abcxemeneies\Dropbox\Programación\VC#\proyectos\Montajes Gas\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.insertar.resources
+C:\Users\abcxemeneies\Dropbox\Programación\VC#\proyectos\Montajes Gas\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\abcxemeneies\Dropbox\Programación\VC#\proyectos\Montajes Gas\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+C:\Users\abcxemeneies\Dropbox\Programación\VC#\proyectos\Montajes Gas\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\abcxemeneies\Dropbox\Programación\VC#\proyectos\Montajes Gas\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\abcxemeneies\Dropbox\Programación\VC#\proyectos\Montajes Gas\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\abcxemeneies\Dropbox\Programación\VC#\proyectos\CRUD C#\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\CRUB Básico.exe.config
+C:\Users\abcxemeneies\Dropbox\Programación\VC#\proyectos\CRUD C#\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\CRUB Básico.exe
+C:\Users\abcxemeneies\Dropbox\Programación\VC#\proyectos\CRUD C#\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\CRUB Básico.pdb
+C:\Users\abcxemeneies\Dropbox\Programación\VC#\proyectos\CRUD C#\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+C:\Users\abcxemeneies\Dropbox\Programación\VC#\proyectos\CRUD C#\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\CRUD_Basico.frmdatos.resources
+C:\Users\abcxemeneies\Dropbox\Programación\VC#\proyectos\CRUD C#\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\CRUD_Basico.insertar.resources
+C:\Users\abcxemeneies\Dropbox\Programación\VC#\proyectos\CRUD C#\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\CRUD_Basico.Properties.Resources.resources
+C:\Users\abcxemeneies\Dropbox\Programación\VC#\proyectos\CRUD C#\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+C:\Users\abcxemeneies\Dropbox\Programación\VC#\proyectos\CRUD C#\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\abcxemeneies\Dropbox\Programación\VC#\proyectos\CRUD C#\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\CRUB Básico.exe
+C:\Users\abcxemeneies\Dropbox\Programación\VC#\proyectos\CRUD C#\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\CRUB Básico.pdb
