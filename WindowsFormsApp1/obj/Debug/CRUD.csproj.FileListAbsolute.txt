@@ -1,0 +1,12 @@
+C:\Users\abcxemeneies\Dropbox\Programación\VC#\proyectos\CRUD C#\CRUD\WindowsFormsApp1\bin\Debug\CRUB Básico.exe.config
+C:\Users\abcxemeneies\Dropbox\Programación\VC#\proyectos\CRUD C#\CRUD\WindowsFormsApp1\bin\Debug\CRUB Básico.exe
+C:\Users\abcxemeneies\Dropbox\Programación\VC#\proyectos\CRUD C#\CRUD\WindowsFormsApp1\bin\Debug\CRUB Básico.pdb
+C:\Users\abcxemeneies\Dropbox\Programación\VC#\proyectos\CRUD C#\CRUD\WindowsFormsApp1\obj\Debug\CRUD.csprojResolveAssemblyReference.cache
+C:\Users\abcxemeneies\Dropbox\Programación\VC#\proyectos\CRUD C#\CRUD\WindowsFormsApp1\obj\Debug\CRUD_Basico.frmdatos.resources
+C:\Users\abcxemeneies\Dropbox\Programación\VC#\proyectos\CRUD C#\CRUD\WindowsFormsApp1\obj\Debug\CRUD_Basico.insertar.resources
+C:\Users\abcxemeneies\Dropbox\Programación\VC#\proyectos\CRUD C#\CRUD\WindowsFormsApp1\obj\Debug\CRUD_Basico.modificar.resources
+C:\Users\abcxemeneies\Dropbox\Programación\VC#\proyectos\CRUD C#\CRUD\WindowsFormsApp1\obj\Debug\CRUD_Basico.Properties.Resources.resources
+C:\Users\abcxemeneies\Dropbox\Programación\VC#\proyectos\CRUD C#\CRUD\WindowsFormsApp1\obj\Debug\CRUD.csproj.GenerateResource.Cache
+C:\Users\abcxemeneies\Dropbox\Programación\VC#\proyectos\CRUD C#\CRUD\WindowsFormsApp1\obj\Debug\CRUD.csproj.CoreCompileInputs.cache
+C:\Users\abcxemeneies\Dropbox\Programación\VC#\proyectos\CRUD C#\CRUD\WindowsFormsApp1\obj\Debug\CRUB Básico.exe
+C:\Users\abcxemeneies\Dropbox\Programación\VC#\proyectos\CRUD C#\CRUD\WindowsFormsApp1\obj\Debug\CRUB Básico.pdb

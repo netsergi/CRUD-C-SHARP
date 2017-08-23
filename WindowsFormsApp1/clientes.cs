@@ -47,6 +47,16 @@ namespace CRUD_Basico
             conn.Close();
         }
 
+        public void modificar(int id, string nombre, string apellidos)
+        {
+            conectar();
+            OleDbCommand sql = new OleDbCommand("UPDATE clientes SET nombre='" + nombre + "',apellidos='" + apellidos + "' WHERE id=?");
+            sql.Parameters.AddWithValue("id", id);
+            sql.Connection = conn;
+            sql.ExecuteNonQuery();
+            conn.Close();
+        }
+
         public void borrar(int id)
         {
             conectar();

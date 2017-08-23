@@ -21,6 +21,7 @@ namespace CRUD_Basico
             InitializeComponent();
             listadatos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.DisplayedCells;
             listadatos.RowTemplate.Height = 30;
+            listadatos.RowHeadersDefaultCellStyle.ForeColor = Color.Blue;
             datos.conectar();
             datos.cargar(ref listadatos);
         }
@@ -57,5 +58,21 @@ namespace CRUD_Basico
                 MessageBox.Show("Registro eliminado.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+
+        private void btnmodificar_Click(object sender, EventArgs e)
+        {
+            if (listadatos.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Seleccionar una fila de la tabla para modificar registro", "Atención!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else
+            {
+                string nombre = listadatos.SelectedRows[0].Cells[1].Value.ToString();
+                string apellidos = listadatos.SelectedRows[0].Cells[2].Value.ToString();
+                int id = Int32.Parse(listadatos.SelectedRows[0].Cells[0].Value.ToString());
+                modificar frmodificar = new modificar(nombre, apellidos,id, listadatos);
+                frmodificar.Show();
+            }
+         }
     }
 }
