@@ -97,5 +97,34 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users-17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-user-icon--icon-search-engine-28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deleteuser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove-user-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modificar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcrobatAccessLib">
+      <Guid>{C523F390-9C83-11D3-9094-00104BD0D535}</Guid>
+      <VersionMajor>3</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

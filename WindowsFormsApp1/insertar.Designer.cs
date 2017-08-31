@@ -28,12 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(insertar));
             this.txtnombre = new System.Windows.Forms.TextBox();
             this.txtapellidos = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnsalir = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtnombre
@@ -72,46 +75,65 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Apellidos:";
             // 
-            // button1
+            // groupBox1
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.26415F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(334, 33);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(206, 52);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Insertar";
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.groupBox1.Controls.Add(this.btnsalir);
+            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Location = new System.Drawing.Point(17, 166);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(271, 148);
+            this.groupBox1.TabIndex = 6;
+            this.groupBox1.TabStop = false;
             // 
             // btnsalir
             // 
             this.btnsalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.26415F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnsalir.Location = new System.Drawing.Point(334, 93);
+            this.btnsalir.Image = global::CRUD_Basico.Properties.Resources.close_red;
+            this.btnsalir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnsalir.Location = new System.Drawing.Point(18, 84);
             this.btnsalir.Name = "btnsalir";
-            this.btnsalir.Size = new System.Drawing.Size(206, 52);
+            this.btnsalir.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.btnsalir.Size = new System.Drawing.Size(231, 47);
             this.btnsalir.TabIndex = 5;
             this.btnsalir.Text = "Salir";
-            this.btnsalir.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnsalir.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnsalir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnsalir.UseVisualStyleBackColor = true;
             this.btnsalir.Click += new System.EventHandler(this.btnsalir_Click);
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.26415F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Image = global::CRUD_Basico.Properties.Resources.add_user_icon__icon_search_engine_28;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(18, 19);
+            this.button1.Name = "button1";
+            this.button1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.button1.Size = new System.Drawing.Size(231, 47);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Insertar";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // insertar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(568, 180);
-            this.Controls.Add(this.btnsalir);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(309, 345);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtapellidos);
             this.Controls.Add(this.txtnombre);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "insertar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "insertar";
             this.Load += new System.EventHandler(this.insertar_Load);
+            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -125,5 +147,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnsalir;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }

@@ -24,6 +24,7 @@ namespace CRUD_Basico
             listadatos.RowHeadersDefaultCellStyle.ForeColor = Color.Blue;
             datos.conectar();
             datos.cargar(ref listadatos);
+            inforeg.Text = "Total registros: " + listadatos.RowCount.ToString();
         }
 
         private void Form1_Load(object sender, EventArgs e)

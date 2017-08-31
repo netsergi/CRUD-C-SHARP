@@ -49,6 +49,7 @@ namespace CRUD_Basico
                 clientes datos = new clientes();
                 datos.modificar(id, txtnombre.Text, txtapellidos.Text);
                 datos.cargar(ref listadatos);
+                this.Close();
         }
     }
 }

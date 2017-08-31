@@ -28,22 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(modificar));
             this.btnsalir = new System.Windows.Forms.Button();
             this.btnmodificar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txtapellidos = new System.Windows.Forms.TextBox();
             this.txtnombre = new System.Windows.Forms.TextBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnsalir
             // 
             this.btnsalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.26415F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnsalir.Location = new System.Drawing.Point(334, 95);
+            this.btnsalir.Image = global::CRUD_Basico.Properties.Resources.close_red;
+            this.btnsalir.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnsalir.Location = new System.Drawing.Point(21, 86);
             this.btnsalir.Name = "btnsalir";
-            this.btnsalir.Size = new System.Drawing.Size(206, 52);
+            this.btnsalir.Size = new System.Drawing.Size(231, 47);
             this.btnsalir.TabIndex = 11;
             this.btnsalir.Text = "Salir";
+            this.btnsalir.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnsalir.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnsalir.UseVisualStyleBackColor = true;
             this.btnsalir.Click += new System.EventHandler(this.btnsalir_Click);
@@ -51,11 +57,15 @@
             // btnmodificar
             // 
             this.btnmodificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.26415F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnmodificar.Location = new System.Drawing.Point(334, 35);
+            this.btnmodificar.Image = global::CRUD_Basico.Properties.Resources.modificar;
+            this.btnmodificar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnmodificar.Location = new System.Drawing.Point(21, 19);
             this.btnmodificar.Name = "btnmodificar";
-            this.btnmodificar.Size = new System.Drawing.Size(206, 52);
+            this.btnmodificar.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btnmodificar.Size = new System.Drawing.Size(231, 47);
             this.btnmodificar.TabIndex = 10;
             this.btnmodificar.Text = "Modificar";
+            this.btnmodificar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnmodificar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnmodificar.UseVisualStyleBackColor = true;
             this.btnmodificar.Click += new System.EventHandler(this.btnmodificar_Click);
@@ -97,22 +107,34 @@
             this.txtnombre.TabIndex = 6;
             this.txtnombre.TextChanged += new System.EventHandler(this.txtnombre_TextChanged);
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.btnmodificar);
+            this.groupBox1.Controls.Add(this.btnsalir);
+            this.groupBox1.Location = new System.Drawing.Point(17, 168);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(272, 148);
+            this.groupBox1.TabIndex = 12;
+            this.groupBox1.TabStop = false;
+            // 
             // modificar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(568, 180);
-            this.Controls.Add(this.btnsalir);
-            this.Controls.Add(this.btnmodificar);
+            this.ClientSize = new System.Drawing.Size(309, 337);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtapellidos);
             this.Controls.Add(this.txtnombre);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "modificar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "modificar";
             this.Load += new System.EventHandler(this.modificar_Load);
+            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -126,5 +148,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtapellidos;
         private System.Windows.Forms.TextBox txtnombre;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }
