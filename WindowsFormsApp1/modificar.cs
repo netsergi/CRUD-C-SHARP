@@ -31,7 +31,7 @@ namespace CRUD_Basico
 
         private void modificar_Load(object sender, EventArgs e)
         {
-
+         
         }
 
         private void txtnombre_TextChanged(object sender, EventArgs e)

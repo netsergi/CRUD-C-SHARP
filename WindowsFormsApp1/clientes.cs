@@ -7,6 +7,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -16,7 +17,6 @@ namespace CRUD_Basico
     {
         private OleDbConnection conn;
         private string path = Application.StartupPath + "\\datos.accdb";
-
         public void conectar()
         {
             if (File.Exists(path))
@@ -65,6 +65,21 @@ namespace CRUD_Basico
             sql.Connection = conn;
             sql.ExecuteNonQuery();
             conn.Close();
+        }
+
+        public bool Comprobar(string nombre, string apellidos)
+        {
+            if ((Regex.IsMatch(nombre, @"[^\w]")) || (Regex.IsMatch(apellidos, @"[^\w]")))
+            {
+                MessageBox.Show("Caracteres no validos, solo se permiten letras.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+            if ( String.IsNullOrEmpty(nombre) || String.IsNullOrEmpty(apellidos))
+            {
+                MessageBox.Show("No se pueden dejar campos en blanco.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+            return true;
         }
 
         public void cargar(ref DataGridView lista)

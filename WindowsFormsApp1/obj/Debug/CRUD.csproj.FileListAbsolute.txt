@@ -24,3 +24,17 @@ C:\Users\abcxemeneies\Documents\CRUD-C-SHARP\WindowsFormsApp1\obj\Debug\CRUB Bá
 C:\Users\abcxemeneies\Documents\CRUD-C-SHARP\WindowsFormsApp1\obj\Debug\CRUB Básico.pdb
 C:\Users\abcxemeneies\Documents\CRUD-C-SHARP\WindowsFormsApp1\obj\Debug\Interop.AcrobatAccessLib.dll
 C:\Users\abcxemeneies\Documents\CRUD-C-SHARP\WindowsFormsApp1\obj\Debug\CRUD.csproj.ResolveComReference.cache
+C:\Users\netse\Documents\CRUD-C-SHARP\WindowsFormsApp1\bin\Debug\CRUB Básico.exe.config
+C:\Users\netse\Documents\CRUD-C-SHARP\WindowsFormsApp1\bin\Debug\CRUB Básico.exe
+C:\Users\netse\Documents\CRUD-C-SHARP\WindowsFormsApp1\bin\Debug\CRUB Básico.pdb
+C:\Users\netse\Documents\CRUD-C-SHARP\WindowsFormsApp1\obj\Debug\CRUD.csprojResolveAssemblyReference.cache
+C:\Users\netse\Documents\CRUD-C-SHARP\WindowsFormsApp1\obj\Debug\Interop.AcrobatAccessLib.dll
+C:\Users\netse\Documents\CRUD-C-SHARP\WindowsFormsApp1\obj\Debug\CRUD.csproj.ResolveComReference.cache
+C:\Users\netse\Documents\CRUD-C-SHARP\WindowsFormsApp1\obj\Debug\CRUD_Basico.frmdatos.resources
+C:\Users\netse\Documents\CRUD-C-SHARP\WindowsFormsApp1\obj\Debug\CRUD_Basico.insertar.resources
+C:\Users\netse\Documents\CRUD-C-SHARP\WindowsFormsApp1\obj\Debug\CRUD_Basico.modificar.resources
+C:\Users\netse\Documents\CRUD-C-SHARP\WindowsFormsApp1\obj\Debug\CRUD_Basico.Properties.Resources.resources
+C:\Users\netse\Documents\CRUD-C-SHARP\WindowsFormsApp1\obj\Debug\CRUD.csproj.GenerateResource.Cache
+C:\Users\netse\Documents\CRUD-C-SHARP\WindowsFormsApp1\obj\Debug\CRUD.csproj.CoreCompileInputs.cache
+C:\Users\netse\Documents\CRUD-C-SHARP\WindowsFormsApp1\obj\Debug\CRUB Básico.exe
+C:\Users\netse\Documents\CRUD-C-SHARP\WindowsFormsApp1\obj\Debug\CRUB Básico.pdb
