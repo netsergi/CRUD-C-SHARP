@@ -16,6 +16,7 @@ namespace CRUD_Basico
     public partial class frmdatos : Form
     {
         clientes datos = new clientes();
+        DataTable db = new DataTable();
         public frmdatos()
         {
             InitializeComponent();
@@ -25,12 +26,12 @@ namespace CRUD_Basico
             datos.conectar();
             datos.cargar(ref listadatos);
             inforeg.Text = "Total registros: " + listadatos.RowCount.ToString();
+            buscar();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             this.MaximizeBox = false;
-            this.Text = "Gestion personas";
         }
 
         private void btninsertar_Click(object sender, EventArgs e)
@@ -75,5 +76,25 @@ namespace CRUD_Basico
                 frmodificar.Show();
             }
          }
+
+        private void buscar()
+        {
+            db.Columns.Add("nombre");
+            db.Columns.Add("apellidos");
+            for (int i = 0; i <= listadatos.RowCount - 1; i++)
+            {
+                DataRow dr = db.NewRow();
+                dr[0] = listadatos.Rows[i].Cells[1].Value.ToString();
+                dr[1] = listadatos.Rows[i].Cells[2].Value.ToString();
+                db.Rows.Add(dr);
+            }
+        }
+
+        private void txtbuscar_TextChanged(object sender, EventArgs e)
+        {
+            DataView dv = new DataView(db);
+            dv.RowFilter = "nombre LIKE '" + txtbuscar.Text + "*' OR apellidos LIKE '" + txtbuscar.Text + "*'";
+            listadatos.DataSource = dv;
+        }
     }
 }
