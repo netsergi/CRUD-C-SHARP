@@ -69,7 +69,7 @@ namespace CRUD_Basico
 
         public bool Comprobar(string nombre, string apellidos)
         {
-            if ((Regex.IsMatch(nombre, @"[^\w]")) || (Regex.IsMatch(apellidos, @"[^\w]")))
+            if (!(Regex.IsMatch(nombre,@"^[a-zA-Z]+$")) || !(Regex.IsMatch(apellidos,@"^[a-zA-Z]+$")))
             {
                 MessageBox.Show("Caracteres no validos, solo se permiten letras.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;

@@ -79,13 +79,15 @@ namespace CRUD_Basico
 
         private void buscar()
         {
+            db.Columns.Add("id");
             db.Columns.Add("nombre");
             db.Columns.Add("apellidos");
             for (int i = 0; i <= listadatos.RowCount - 1; i++)
             {
                 DataRow dr = db.NewRow();
-                dr[0] = listadatos.Rows[i].Cells[1].Value.ToString();
-                dr[1] = listadatos.Rows[i].Cells[2].Value.ToString();
+                dr[0] = listadatos.Rows[i].Cells[0].Value.ToString();
+                dr[1] = listadatos.Rows[i].Cells[1].Value.ToString();
+                dr[2] = listadatos.Rows[i].Cells[2].Value.ToString();
                 db.Rows.Add(dr);
             }
         }
@@ -95,6 +97,13 @@ namespace CRUD_Basico
             DataView dv = new DataView(db);
             dv.RowFilter = "nombre LIKE '" + txtbuscar.Text + "*' OR apellidos LIKE '" + txtbuscar.Text + "*'";
             listadatos.DataSource = dv;
+            listadatos.Columns[0].Visible = false;
+        }
+
+        private void groupBox1_Paint(object sender, PaintEventArgs e)
+        {
+            ControlPaint.DrawBorder(e.Graphics, this.ClientRectangle, Color.Gray, ButtonBorderStyle.Solid);
+            ControlPaint.DrawBorder3D(e.Graphics, this.ClientRectangle, Border3DStyle.Flat,Border3DSide.All);
         }
     }
 }
