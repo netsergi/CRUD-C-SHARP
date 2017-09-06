@@ -9,10 +9,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.Resources;
 namespace CRUD_Basico
-{
-   
+{   
     public partial class frmdatos : Form
     {
         clientes datos = new clientes();
@@ -20,9 +19,10 @@ namespace CRUD_Basico
         public frmdatos()
         {
             InitializeComponent();
-            listadatos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.DisplayedCells;
-            listadatos.RowTemplate.Height = 30;
+            listadatos.RowTemplate.Height = 40;
             listadatos.RowHeadersDefaultCellStyle.ForeColor = Color.Blue;
+            DateTime hoy = DateTime.Today;
+            fechatxt.Text =   hoy.ToLongDateString().ToUpper();
             datos.conectar();
             datos.cargar(ref listadatos);
             inforeg.Text = "Total registros: " + listadatos.RowCount.ToString();
@@ -36,16 +36,11 @@ namespace CRUD_Basico
 
         private void btninsertar_Click(object sender, EventArgs e)
         {
-            insertar frminsertar = new insertar(listadatos);
+            insertar frminsertar = new insertar(listadatos, inforeg);
             frminsertar.Show();
 
         }
-
-        private void listadatos_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-       
-        }
-        
+                  
         private void button1_Click(object sender, EventArgs e)
         {
             if (listadatos.SelectedRows.Count == 0)
@@ -58,6 +53,7 @@ namespace CRUD_Basico
                 datos.borrar(id);
                 datos.cargar(ref listadatos);
                 MessageBox.Show("Registro eliminado.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                inforeg.Text = "Total registros: " + listadatos.RowCount.ToString();
             }
         }
 
@@ -80,8 +76,8 @@ namespace CRUD_Basico
         private void buscar()
         {
             db.Columns.Add("id");
-            db.Columns.Add("nombre");
-            db.Columns.Add("apellidos");
+            db.Columns.Add("Nombre");
+            db.Columns.Add("Apellidos");
             for (int i = 0; i <= listadatos.RowCount - 1; i++)
             {
                 DataRow dr = db.NewRow();
@@ -98,12 +94,17 @@ namespace CRUD_Basico
             dv.RowFilter = "nombre LIKE '" + txtbuscar.Text + "*' OR apellidos LIKE '" + txtbuscar.Text + "*'";
             listadatos.DataSource = dv;
             listadatos.Columns[0].Visible = false;
+            inforeg.Text = "Total registros: " + dv.Count;            
         }
 
         private void groupBox1_Paint(object sender, PaintEventArgs e)
         {
-            ControlPaint.DrawBorder(e.Graphics, this.ClientRectangle, Color.Gray, ButtonBorderStyle.Solid);
             ControlPaint.DrawBorder3D(e.Graphics, this.ClientRectangle, Border3DStyle.Flat,Border3DSide.All);
+        }
+
+        private void fechatxt_Paint(object sender, PaintEventArgs e)
+        {
+            ControlPaint.DrawBorder3D(e.Graphics, this.ClientRectangle, Border3DStyle.Bump, Border3DSide.Left);
         }
     }
 }

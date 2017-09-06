@@ -16,12 +16,14 @@ namespace CRUD_Basico
     public partial class insertar : Form
     {
         private DataGridView listadatos;
+        private ToolStripLabel filas;
       
-        public insertar(DataGridView listadatos)
+        public insertar(DataGridView listadatos, ToolStripLabel inforeg)
         {
             
             InitializeComponent();
             this.listadatos = listadatos;
+            this.filas = inforeg;
         }
 
         private void insertar_Load(object sender, EventArgs e)
@@ -42,6 +44,7 @@ namespace CRUD_Basico
                 {
                     datos.insertar(txtnombre.Text, txtapellidos.Text);
                     datos.cargar(ref listadatos);
+                    filas.Text = "Total registros: " + listadatos.RowCount.ToString();
                     this.Close();
                 }
         }

@@ -41,7 +41,7 @@ namespace CRUD_Basico
         public void insertar(string nombre, string apellidos)
         {
             conectar();
-            OleDbCommand sql = new OleDbCommand("INSERT INTO clientes (nombre,apellidos) values ('" + nombre + "','" + apellidos + "')");
+            OleDbCommand sql = new OleDbCommand("INSERT INTO clientes (Nombre,Apellidos) values ('" + nombre + "','" + apellidos + "')");
             sql.Connection = conn;
             sql.ExecuteNonQuery();
             conn.Close();
@@ -50,7 +50,7 @@ namespace CRUD_Basico
         public void modificar(int id, string nombre, string apellidos)
         {
             conectar();
-            OleDbCommand sql = new OleDbCommand("UPDATE clientes SET nombre='" + nombre + "',apellidos='" + apellidos + "' WHERE id=?");
+            OleDbCommand sql = new OleDbCommand("UPDATE clientes SET Nombre='" + nombre + "',Apellidos='" + apellidos + "' WHERE id=?");
             sql.Parameters.AddWithValue("id", id);
             sql.Connection = conn;
             sql.ExecuteNonQuery();
@@ -69,7 +69,7 @@ namespace CRUD_Basico
 
         public bool Comprobar(string nombre, string apellidos)
         {
-            if (!(Regex.IsMatch(nombre,@"^[a-zA-Z]+$")) || !(Regex.IsMatch(apellidos,@"^[a-zA-Z]+$")))
+            if (!(Regex.IsMatch(nombre,@"^[a-zA-Z\s]+$")) || !(Regex.IsMatch(apellidos,@"^[a-zA-Z\s]+$")))
             {
                 MessageBox.Show("Caracteres no validos, solo se permiten letras.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;

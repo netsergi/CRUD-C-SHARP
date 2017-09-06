@@ -145,5 +145,8 @@
   <ItemGroup>
     <None Include="Resources\i_busqueda.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3-2-database-free-download-png.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
