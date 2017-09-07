@@ -84,7 +84,7 @@ namespace CRUD_Basico
 
         public void cargar(ref DataGridView lista)
         {
-            string query = "SELECT * FROM clientes;";
+            string query = "SELECT * FROM clientes ORDER BY Nombre ASC;";
             OleDbCommand sql = new OleDbCommand(query, conn);
             OleDbDataAdapter odadatos = new OleDbDataAdapter(sql);
             DataSet clientes = new DataSet();

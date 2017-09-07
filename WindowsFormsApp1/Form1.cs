@@ -51,6 +51,7 @@ namespace CRUD_Basico
             {
                 int id = Int32.Parse(listadatos.SelectedRows[0].Cells[0].Value.ToString());
                 datos.borrar(id);
+                txtbuscar.Text = "";
                 datos.cargar(ref listadatos);
                 MessageBox.Show("Registro eliminado.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 inforeg.Text = "Total registros: " + listadatos.RowCount.ToString();
